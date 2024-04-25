@@ -1,0 +1,18 @@
+.center {
+    margin: 80 auto; /* Horizontal margin set to auto */
+    width: 50%; /* Set a width for the table */
+}
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 2px solid white;
+    padding: 8px;
+    text-align: center;
+
+}
+th {
+    background-color: #10a381;
+}
