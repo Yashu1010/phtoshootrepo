@@ -106,7 +106,7 @@
 		<div class="vector-w-foot"></div>
 	</div>
 </div>
-	<!-- <script src="js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<script src="js/register.js"></script>
 	<script src="js/login.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -130,7 +130,7 @@ $(document).ready(function(){
     });
 })
 
-</script> -->
+</script>
 <script>
     // Validation function for name
     function validateName(name) {
