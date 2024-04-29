@@ -4,7 +4,7 @@ $name = $_REQUEST["name"];
 $email = $_REQUEST["email"];
 $desc = $_REQUEST["description"];
 
-$conn=mysqli_connect('localhost','root','','skstudiodb');
+$conn=mysqli_connect('yashmysqlserver.mysql.database.azure.com','yash0101','gandhi2002@!','skstudiodb');
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
