@@ -39,7 +39,7 @@
     </form>
 
     <?php
-    $conn = mysqli_connect('localhost','root','','skstudiodb'); 
+    $conn = mysqli_connect('yashmysqlserver.mysql.database.azure.com','yash0101','gandhi2002@!','skstudiodb'); 
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $search = $_POST['search'];
