@@ -1,7 +1,7 @@
 <?php
-  DEFINE("DB_HOST", 'localhost');
-  DEFINE("DB_USER", 'root');
-  DEFINE("DB_PASS", '');
+  DEFINE("DB_HOST", 'yashmysqlserver.mysql.database.azure.com');
+  DEFINE("DB_USER", 'yash0101');
+  DEFINE("DB_PASS", 'gandhi2002@!');
   DEFINE("DB_NAME", 'skstudiodb');
   class db
   {
