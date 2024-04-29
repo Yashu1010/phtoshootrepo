@@ -1,6 +1,6 @@
 <?php
 // Assuming you have a database connection established
-$conn=mysqli_connect('localhost','root','','skstudiodb');
+$conn=mysqli_connect('yashmysqlserver.mysql.database.azure.com','yash0101','gandhi2002@!','skstudiodb');
 
 // Fetch images from the database
 $sql = "SELECT `image` FROM gallary LIMIT 3"; // Assuming 'images' is the table name
