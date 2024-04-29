@@ -1,6 +1,6 @@
 <?php
 $id=$_GET['id'];
-$con=mysqli_connect('localhost','root','','skstudiodb');
+$con=mysqli_connect('yashmysqlserver.mysql.database.azure.com','yash0101','gandhi2002@!','skstudiodb');
 $del="DELETE FROM `video` WHERE `id`='$id'";
 
 $del1=mysqli_query($con,$del);
