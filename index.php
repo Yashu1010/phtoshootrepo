@@ -204,7 +204,7 @@
       }
     </style>
 <?php
-  $con=mysqli_connect('localhost','root','','skstudiodb');
+  $con=mysqli_connect('yashmysqlserver.mysql.database.azure.com','yash0101','gandhi2002@!','skstudiodb');
   //include "config.php";
   $sql="SELECT * FROM gallary";
   $result=mysqli_query($con,$sql) or die("query unsuccessfull");
